@@ -1,0 +1,224 @@
+body{
+	background-color: #f1f4f9;
+  font-family: 'Proxima Nova' !important;
+}
+
+
+
+.botao_verde {
+  background-color: #4ab858;
+}
+
+.botao_novo_ajax{
+  margin-top: 31px;
+  margin-left: 22px;
+}
+
+nav {
+font-family: 'Proxima Nova' !important;
+    font-size: 13px !important;
+    padding: 6px !important;
+    font-weight: 600 !important;
+
+   }
+
+
+
+
+
+.seta-baixo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0;
+  height: 0;
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid;
+}
+
+
+.navbar {
+  background-color: #2687e9;
+
+}
+.navbar .navbar-brand {
+	margin-left: 25%;
+  color: #b7cdfd;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar .navbar-text {
+  color: #b7cdfd;
+}
+.navbar .navbar-nav .nav-link {
+  color: #b7cdfd;
+  border-radius: .25rem;
+  margin: 0 1.25em;
+
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #ffffff;
+
+}
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #2687e9;
+  border-color: #2687e9;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #b7cdfd;
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #2687e9;
+
+}
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: #2687e9;
+
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #ffffff;
+  background-color: #2687e9;
+
+}
+.navbar .navbar-toggle {
+  border-color: #2687e9;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #2687e9;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #b7cdfd;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #b7cdfd;
+}
+.navbar .navbar-link {
+  color: #b7cdfd;
+}
+.navbar .navbar-link:hover {
+  color: #ffffff;
+}
+
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b7cdfd;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #2687e9;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b7cdfd;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #2687e9;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b7cdfd;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #2687e9;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #b7cdfd;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+  }
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #2687e9;
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #b7cdfd;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #2687e9;
+}
+
+
+.badge-success{
+	padding: 8px 12px;
+	color: #4ab858;
+	background-color: #ddf1de;
+}
+
+.badge-warning {
+	padding: 8px 12px;
+	color: #bf8e00;
+	background-color: #fff4ce;
+}
+
+.novo_table {
+	font-size: 13px;
+	border: 1px solid #c9d3dd;
+
+
+}
+
+input[type=checkbox]
+{
+/* Double-sized Checkboxes */
+-ms-transform: scale(1.5); /* IE */
+-moz-transform: scale(1.5); /* FF */
+-webkit-transform: scale(1.5); /* Safari and Chrome */
+-o-transform: scale(1.5); /* Opera */
+padding: 10px;
+}
+
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+/* Checkbox text */
+font-size: 20%;
+display: inline;
+}
