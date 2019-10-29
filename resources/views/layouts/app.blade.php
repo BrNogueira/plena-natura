@@ -391,11 +391,11 @@
                 <div class="wrapper">
                     <nav>
                         <ul>
-                        @if($categorys)
-                        @foreach($categorys as $c)
+                        <!-- @if($categorys)
+                        @foreach($categorys as $c) -->
                             <li class="marcas">
                                 <a href="" title="Marcas">
-                                {{$c->name}}
+                                <!-- {{$c->name}} -->
                                 </a>
                                 <div class="sub">
                                     <div class="col">
